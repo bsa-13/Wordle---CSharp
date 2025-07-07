@@ -1,0 +1,53 @@
+# Ignore build outputs
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Ignore Visual Studio temporary files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore package directories
+packages/
+*.nupkg
+*.snupkg
+
+# Ignore generated files
+*.Designer.cs
+*.g.cs
+*.g.i.cs
+
+# Ignore backup and temporary files
+*.tmp
+*.bak
+*.log
+*.orig
+
+# Ignore compiled DLLs and EXEs
+*.dll
+*.exe
+*.pdb
+
+# Ignore Rider IDE files (if using JetBrains)
+.idea/
+
+# Ignore user-specific settings
+*.userprefs
+
+# Ignore test results
+TestResults/
+*.trx
+*.coverage
+
+# Ignore ReSharper cache
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore any local config or secret files
+appsettings.*.json
+secrets.json
