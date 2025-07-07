@@ -1,4 +1,5 @@
 ﻿<Window x:Class="WordleGame.MainWindow"
+        xmlns:local="clr-namespace:WordleGame.Controls"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Wordle Game" Height="600" Width="400"
@@ -7,5 +8,7 @@
         <TextBlock Text="Wordle" FontSize="36" FontWeight="Bold"
                    HorizontalAlignment="Center" Margin="0,20,0,0"/>
         <!-- GameBoard will go here -->
+        <local:GameBoard x:Name="GameBoardControl" Margin="0,80,0,0" />
+
     </Grid>
 </Window>
