@@ -13,5 +13,10 @@ namespace WordleGame.Services
         {
             return guess.ToLower() == TargetWord;
         }
+
+        public bool ValidateGuess(string guess)
+{
+    return guess.Length == 5;
+}
     }
 }
