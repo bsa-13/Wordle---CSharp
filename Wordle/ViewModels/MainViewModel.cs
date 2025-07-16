@@ -21,5 +21,13 @@ namespace WordleGame.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
+
+        public void SubmitGuess(string guess)
+{
+    if (guess.Length == 5)
+    {
+        // Check correctness and update game state
+    }
+}
     }
 }
