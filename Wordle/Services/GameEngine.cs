@@ -13,6 +13,14 @@ namespace WordleGame.Services
         {
             return guess.ToLower() == TargetWord;
         }
+        
+        
+        public bool CheckGuess(string guess, string solution)
+        {
+         return guess.Equals(solution, StringComparison.OrdinalIgnoreCase);
+        }
+        
+
 
         public bool ValidateGuess(string guess)
 {
