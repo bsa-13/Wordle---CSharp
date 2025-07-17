@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace WordleGame.Services
 {
-    internal class ScoreCalculator
+    public static class ScoreCalculator
     {
-
+        public static int CalculateScore(int attempt)
+        {
+            return (7 - attempt) * 10; // Simple scoring system
+        }
     }
+
 }
