@@ -5,17 +5,17 @@
 </ResourceDictionary>
 
 
-Task: Create Styles/Fonts.xaml
+<!--Task: Create Styles/Fonts.xaml
 Commit Message: Stage 1 - Member 3: Add Fonts.xaml resource dictionary
-Code:
+Code:-->
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
     <FontFamily x:Key="MainFont">Segoe UI</FontFamily>
 </ResourceDictionary>
 
 
-Task: Modify App.xaml to include styles
+<!--Task: Modify App.xaml to include styles
 Commit Message: Stage 1 - Member 3: Link Colors.xaml and Fonts.xaml in App.xaml
-Code:
+Code:-->
 <Application.Resources>
     <ResourceDictionary>
         <ResourceDictionary.MergedDictionaries>
@@ -24,3 +24,9 @@ Code:
         </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
 </Application.Resources>
+    
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <Color x:Key="CorrectColor">#FF6AAA64</Color>
+    <Color x:Key="PresentColor">#FFC9B458</Color>
+    <Color x:Key="AbsentColor">#FF787C7E</Color>
+</ResourceDictionary>
