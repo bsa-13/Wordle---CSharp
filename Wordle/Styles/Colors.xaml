@@ -24,3 +24,9 @@ Code:-->
         </ResourceDictionary.MergedDictionaries>
     </ResourceDictionary>
 </Application.Resources>
+    
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <Color x:Key="CorrectColor">#FF6AAA64</Color>
+    <Color x:Key="PresentColor">#FFC9B458</Color>
+    <Color x:Key="AbsentColor">#FF787C7E</Color>
+</ResourceDictionary>

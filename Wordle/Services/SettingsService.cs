@@ -23,3 +23,4 @@ namespace WordleGame.Services
             return JsonConvert.DeserializeObject<UserSettings>(json);
         }
     }
+}
