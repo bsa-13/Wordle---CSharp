@@ -15,6 +15,16 @@ namespace WordleGame.Services
             LoadWords(filePath);
         }
 
+        private bool IsAlpha(string word)
+        {
+            foreach (char c in word)
+            {
+                if (!char.IsLetter(c))
+                    return false;
+            }
+            return true;
+        }
+
         private void LoadWords(string filePath)
         {
             if (!File.Exists(filePath))
@@ -23,8 +33,9 @@ namespace WordleGame.Services
             foreach (var line in File.ReadAllLines(filePath))
             {
                 string word = line.Trim().ToLower();
-                if (word.Length == 5)
+                if (word.Length == 5 && IsAlpha(word))
                     validWords.Add(word);
+
             }
         }
 
@@ -37,7 +48,12 @@ namespace WordleGame.Services
         {
             var random = new Random();
             int index = random.Next(validWords.Count);
-            return validWords[index];
+            string chosenWord = validWords[index];
+            return chosenWord;
         }
+
+
+
+
     }
 }

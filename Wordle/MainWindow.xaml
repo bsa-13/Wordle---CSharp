@@ -10,12 +10,12 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         
-        <x:Name = "MainLayout" Background="White">
+        <Grid x:Name="MainLayout" Background="White">
             <TextBlock Text="Wordle" FontSize="36" FontWeight="Bold"
                    HorizontalAlignment="Center" Margin="0,20,0,0"/>
             <!-- GameBoard will go here -->
             <local:GameBoard x:Name="GameBoardControl" Margin="0,80,0,0" />
-        </x:Name>
+        </Grid>
     </Grid>
 
 </Window>

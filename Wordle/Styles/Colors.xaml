@@ -1,5 +1,12 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-    <Color x:Key="TileCorrectColor">#6aaa64</Color>
-    <Color x:Key="TilePresentColor">#c9b458</Color>
-    <Color x:Key="TileAbsentColor">#787c7e</Color>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Tile Colors -->
+    <Color x:Key="TileCorrectColor">#FF6AAA64</Color>
+    <Color x:Key="TilePresentColor">#FFC9B458</Color>
+    <Color x:Key="TileAbsentColor">#FF787C7E</Color>
+
+    <!-- General Colors (if needed elsewhere) -->
+    <Color x:Key="CorrectColor">#FF6AAA64</Color>
+    <Color x:Key="PresentColor">#FFC9B458</Color>
+    <Color x:Key="AbsentColor">#FF787C7E</Color>
 </ResourceDictionary>
