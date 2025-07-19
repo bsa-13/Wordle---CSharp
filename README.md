@@ -4,6 +4,13 @@
 
 A fully functional Wordle clone built with WPF (Windows Presentation Foundation) in C#. This desktop application recreates the popular word-guessing game with all core mechanics and features.
 
+## Team
+Salvador
+Bhupinder
+Samuel
+Michael
+
+
 ## Overview
 
 This Wordle implementation provides the authentic Wordle experience:
