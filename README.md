@@ -10,7 +10,6 @@ Bhupinder
 Samuel
 Michael
 
-
 ## Overview
 
 This Wordle implementation provides the authentic Wordle experience:
